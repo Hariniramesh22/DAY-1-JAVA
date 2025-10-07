@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner obj = new Scanner(System.in);
+      int a=obj.nextInt();
+     int b=obj.nextInt();
+     int c=obj.nextInt();
+     int d=obj.nextInt();
+     int e=obj.nextInt();
+     int f=obj.nextInt(); 
+     int s=a*a;
+     int r=b*c;
+     double q=3.14*d*d;
+     double t= 0.5 * e * f;
+     System.out.println("Area of Square="+s);
+     System.out.println("Area of Rectangle="+r);
+     System.out.printf("Area of Circle=%.2f\n",q);
+     System.out.printf("Area of Triangle=%.0f\n", t);
+  }
+}
